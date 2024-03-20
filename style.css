@@ -45,6 +45,8 @@ body {
     line-height: 100%;
 }#linha_footer {
     line-height: 450%;
+}.face-insta {
+    height: 25px;
 }.container {
     position: relative;
     text-align: center;
@@ -95,6 +97,11 @@ body {
     margin-left: 5%;
     padding-right: 3%;
     text-align: justify;
+}.btn-ferra {
+    font-size: 30px;
+    text-decoration: none;
+    color: #28703C;
+
 }.green-box {
     background-color: #28703C;
     width: 630px;
@@ -134,7 +141,10 @@ body {
     margin-top: 5%;
 }.virtual{
     text-align: center;
-    margin: 8%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 20px;
+    margin-left: 100px;
 }.contain{
     display: flex;
     justify-content: space-between;
@@ -144,12 +154,14 @@ body {
 }#freedom{
     background-color: #E6E6E6;
     padding: 5%;
+    
 }.unifebe{
     text-align: center;
     padding: 4%;
 }.conta{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    margin: 100px;
 }.drive{
     margin: 4%;
 }.docs{
@@ -249,3 +261,4 @@ body {
     margin-right: 18;
     margin-top: 2%;
 }
+
