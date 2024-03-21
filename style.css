@@ -97,6 +97,7 @@ body {
     margin-left: 5%;
     padding-right: 3%;
     text-align: justify;
+    width: 170px;
 }.btn-ferra {
     font-size: 30px;
     text-decoration: none;
@@ -151,18 +152,36 @@ body {
     background-color: #E6E6E6;
 }.nvda{
     padding: 5%;
-}#freedom{
+}.nvda img {
+    width:170px;
+    margin-left: 5%;
+    float: right;
+}
+#freedom{
     background-color: #E6E6E6;
     padding: 5%;
-    
-}.unifebe{
+}.free-div {
+    float: left;
+    margin-top: 35px;
+    margin-right: 40px;
+    font-size: 20px
+}
+
+.unifebe{
     text-align: center;
     padding: 4%;
 }.conta{
     display: flex;
     justify-content: center;
     margin: 100px;
-}.drive{
+}
+
+.conta img {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.drive{
     margin: 4%;
 }.docs{
     display: flex;
@@ -262,3 +281,61 @@ body {
     margin-top: 2%;
 }
 
+.img-ferra {
+    text-align: center;
+}
+
+.img-ferra p {
+    margin: 80px;
+}
+.img-ferra img {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.p-unif {
+    margin-left: 90px;
+    margin-bottom: 70px;
+}
+
+.ol-unif {
+    margin-left: 80px;
+}
+
+.botao1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.botao1 a {
+    text-decoration: none;
+}
+
+.btn-primary{
+    padding: 8px 100px;
+    color: #F2F1F1;
+    background: #28703C;
+    border: 2px solid #28703C;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 100px;
+    height: 110px;
+    border-radius: 5%;
+    padding-top: 40px;
+    font-size: 20px;
+    }
+
+.apps {
+    display: inline-block ;
+}
+
+.apps img {
+    width: 250px;
+    margin: 30px;
+}
