@@ -19,6 +19,7 @@ body {
     background-color: #28703C;
     float: left;
     width: 100%;
+    margin-top: 6%;
 }* {
     box-sizing: border-box;
 }.menu_footer {
@@ -228,36 +229,44 @@ h1{
     display: flex;
     justify-content: space-between;
 }#corpo {
-    margin: 50px 150px;
+    max-width: 500px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(253, 251, 251, 0.1);
+    background-color: #337748;
+    margin-left: 33%;
+    align-items: center;
+    display: block;
 }#formulario {
     text-align: left;
+    display: block;
     margin: 0 0px;
-}#formulario .direita {
-    float: right;
-    width:50%;
-}#formulario .esquerda {
-    float: left;
-    width:50%;
-}#formulario label {
+}
+#formulario label {
     line-height: 50px;
-    text-align:left;
+    text-align:center;
     color:#fff;
 }#formulario input {
-    background-color: transparent;
-    border-top-color: transparent;
-    border-left-color: transparent; 
-    border-right-color: transparent;
-    border-bottom-color: #fff;   
-    color: #fff;
-}#formulario .botao {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#formulario .botao {
     cursor: pointer;
-    color: #FFF;
-    background-color: #43995C;
+    color: #43995c;
+    background-color: white;
     padding: 1%;
     font-size: larger;
-    margin-top: 3%;
-    border-bottom-color: transparent;
-}#formulario .botao:hover {
+    border-bottom-color:#43995C;
+    border: 1px solid white;
+    border-radius: 4px;
+    flex: 5;
+    width: 20%;
+    margin-inline: 160px;
+    
+}
+#formulario .botao:hover {
     background-color: #265935;
 }
 #seçao1{
